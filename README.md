@@ -1,16 +1,60 @@
-# React + Vite
+ARC Raiders Inventory Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, searchable inventory management tool for ARC Raiders players. This application helps Raiders track their stash and calculate progress toward Expedition Projects and Workshop Upgrades using data from the v3.4 Master Cheat Sheet.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Live Search & Filtering: Instantly filter loot by name or category (Projects, Workshop Stations, Quests, or Sellable Junk).
 
-## React Compiler
+Persistent Stash Tracking: Your inventory counts are saved locally in your browser—no login required. Data stays safe even if you close the tab or restart the server.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Dynamic Progress Bars: Automatically calculates exactly how many items you still need for every Phase of Expedition Projects 1, 2, and 3.
 
-## Expanding the ESLint configuration
+Workshop Breakdown: Comprehensive tracking for all stations:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Gunsmith, Gear Bench, Medical Lab, Scrappy, Explosives, Refiner, and Utility.
+
+Quest Tracker: Dedicated tracking for all 20 "Keep for Quest" exclusive items.
+
+ROI Insights: View recycling vs. selling value to maximize your credits.
+
+🛠️ Local Setup
+
+To run this tracker on your machine, follow these steps:
+
+Clone the repository:
+
+git clone [https://github.com/JTCSnaps/arc-raiders-tool.git](https://github.com/JTCSnaps/arc-raiders-tool.git)
+cd arc-raiders-tool
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm run dev
+
+
+Open in your browser:
+Navigate to the URL provided in your terminal (usually http://localhost:5173 or 5174).
+
+📦 Technologies Used
+
+React & Vite: For a lightning-fast development environment and UI.
+
+Tailwind CSS v4: Utility-first styling with a custom dark-mode aesthetic.
+
+Lucide React: Beautiful, consistent iconography for Raiders.
+
+LocalStorage API: Client-side data persistence.
+
+🤝 Credits
+
+Data Source: Original ARC Raiders Master Cheat Sheets (v3.3 & v3.4) created by u/pRoDeeD.
+
+Icons: Provided by Lucide.
+
+Note: This is a fan-made tool and is not officially affiliated with Embark Studios.
