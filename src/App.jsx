@@ -116,7 +116,7 @@ export default function App() {
     const newVal = Math.max(0, (inventory[name] || 0) + delta);
     const updated = { ...inventory, [name]: newVal };
     setInventory(updated);
-    localStorage.setItem('arc_raiders_inv_v3.4', JSON.stringify(updated));
+    localStorage.setItem('arc_raiders_inv', JSON.stringify(updated));
   };
 
   const filteredItems = useMemo(() => {
@@ -162,7 +162,7 @@ export default function App() {
                 <Box className="w-6 h-6 text-white" />
               </div>
               <h1 className="text-2xl md:text-3xl font-black tracking-tighter text-white uppercase italic">
-                ARC <span className="text-orange-500">Raiders</span> Master v3.4
+                ARC <span className="text-orange-500">Raiders</span> Master
               </h1>
             </div>
             <p className="text-slate-500 text-xs font-bold uppercase tracking-widest">Workshop & Expedition Sync Active</p>
