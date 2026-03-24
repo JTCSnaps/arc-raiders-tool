@@ -278,7 +278,6 @@ export default function App() {
 
         <footer className="fixed bottom-0 left-0 right-0 p-4 bg-black/80 backdrop-blur-xl border-t border-slate-900 flex justify-center">
           <div className="flex items-center gap-6 text-slate-600 text-[9px] font-black uppercase tracking-widest">
-             <div className="flex items-center gap-2 text-green-500"><Trophy className="w-3 h-3"/> V3.4 MASTER SYNC</div>
              <div className="hidden md:block">u/pRoDeeD MASTER SHEET DATA</div>
           </div>
         </footer>
