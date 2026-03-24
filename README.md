@@ -25,6 +25,7 @@ To run this tracker on your machine, follow these steps:
 Clone the repository:
 
 git clone [https://github.com/JTCSnaps/arc-raiders-tool.git](https://github.com/JTCSnaps/arc-raiders-tool.git)
+
 cd arc-raiders-tool
 
 
